@@ -1,9 +1,9 @@
 # 第一次社招面试
 
 @(主要是C++开发的面试，会加上我的一些个人理解)
-**C++基础参考：https://juejin.im/entry/5a1bbb386fb9a0451c3a1e0f?from=singlemessage
-**数据库基础参考：https://juejin.im/post/5a9ca0d6518825555c1d1acd
-**网络 TCP/IP：https://juejin.im/post/586cfcf8da2f600055ce8a8d
+**C++基础参考：https://juejin.im/entry/5a1bbb386fb9a0451c3a1e0f?from=singlemessage **
+**数据库基础参考：https://juejin.im/post/5a9ca0d6518825555c1d1acd **
+**网络 TCP/IP：https://juejin.im/post/586cfcf8da2f600055ce8a8d **
 - **语法特性**：主要是一些特性注意点，工作中用的不多或者就是默认使用，但面试就是喜欢搞这些花里胡哨的东西； 
 - **数据库** ：这部分不多，就是语法使用；
 - **算法数据结构** ：排序算法和常用的数据结构；
@@ -19,7 +19,7 @@
 - [算法数据结构](#算法数据结构)  
 - [网络操作系统](#网络操作系统) 
 - [编程题](#编程题) 
-- [Linux](#linux)  
+- [Linux](#其他)  
 
 ## 语法特性
 > STL中vector自动增长的原理
@@ -1201,7 +1201,7 @@ int Binary_Search(int a[], int n, int key)
 }
 ```
 
-## Liunx
+## 其他
 > Linux常用的命令和信号
 
 - 命令：https://juejin.im/post/58cd11915c497d0057bf3829
@@ -1209,7 +1209,7 @@ int Binary_Search(int a[], int n, int key)
 <img src="resource/signals.png">
 参考： https://blog.csdn.net/zb1593496558/article/details/80280346
 
-> GDB代码调试
+> linux下GDB代码调试
 
 - https://blog.csdn.net/lm409/article/details/80303709
 - 其实主要是有用过过就有印象了
