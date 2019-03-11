@@ -437,6 +437,7 @@ limit 4
 <img src="resource/sort.png">
 
  1. 直接插入排序
+ 
 排序思想：
 将无序区中的第一个元素依次跟有序区的元素从后往前比较，直到找到已排序的元素中比该元素小的，则将比较过的数后移，将该元素插入到所找到的位置，如此循环直至无序区全部并入到有序区中
 
@@ -471,7 +472,9 @@ void Insertsort1(int a[], int n)
  
  排序思想：
 将待排序数组按照步长gap进行分组，然后将每组的元素利用直接插入排序的方法进行排序；每次将gap折半减小，循环上述操作；当gap=1时，利用直接插入，完成排序
+
 <img src="resource/shell.png">
+
 ```
 void shellsort(int a[], int n)  
 {  
@@ -499,7 +502,9 @@ void shellsort(int a[], int n)
 
 排序思想：
 从无序区中，找到最小的元素交换到无序区的第一位，将无序区第一位并入有序区，如此循环直至无序区全部并入到有序区
+
 <img src="resource/select.gif">
+
 ```
 void Selectsort(int a[], int n)  
 {  
@@ -523,7 +528,9 @@ void Selectsort(int a[], int n)
 排序思想：
 利用大小堆的性质：任意的叶子节点小于（或大于）它所有的父节点
 首先可以将堆建好之后堆中第0个数据是堆中最大（小）的数据。取出这个数据可以放到堆数组的最后，再执行堆的删除操作，重新生成大（小）堆，这样堆中第0个数据又是堆中最大（小）的数据，重复上述步骤直至堆中只有一个数据时就直接取出这个数据
+
 <img src="resource/max_heap.png">
+
 <img src="resource/max_heap2.png">
 
 5. 冒泡排序
@@ -533,7 +540,9 @@ void Selectsort(int a[], int n)
 比较相邻的前后二个数据，如果前面数据大于后面的数据，就将二个数据交换。
 这样对数组的第0个数据到N-1个数据进行一次遍历后，最大的一个数据就“沉”到数组第N-1个位置。
 对于长度为n的序列，一共需要执行n-1轮比较
+
 <img src="resource/bubble.gif">
+
 ```
 void BubbleSort1(int a[], int n)  
 {  
@@ -558,6 +567,7 @@ void BubbleSort1(int a[], int n)
 递归重复步骤1.2，直到所有子集当中只有一个元素为止时则排序完成
 
 <img src="resource/quick.gif">
+
 ```
 void quick_sort(int s[], int l, int r)  
 {  
