@@ -47,7 +47,7 @@
 - [数据库](#数据库)  
 	- [数据库的三大范式加BCNF](#数据库的三大范式加BCNF)
 	- [数据库连接池](#数据库连接池)
-	- [where，group by和having使用]( #语法where与group by与having使用 )
+	- [where，group by和having使用]( #语法使用 )
 	- [distinct用法](#distinct用法)
 	- [索引使用，效率对比](#索引使用，效率对比)
 	- [查询和编号为01的同学学习的课程完全相同的其他同学](#查询和编号为01的同学学习的课程完全相同的其他同学)
@@ -417,7 +417,9 @@ class(class,department)
 
 参考：https://www.cnblogs.com/wym789/p/6374440.html
 
-> ### 语法where与group by与having使用
+> ### 语法使用
+
+语法where与group by与having使用
 
 - where和having比较：
 聚合函数是比较where、having 的关键。 
