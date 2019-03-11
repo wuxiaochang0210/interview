@@ -1085,7 +1085,7 @@ Start => socket() => bind() => accept() => read()、write()等 => close()
 
 <img src="resource/tcp2.jpg">
 
-注意点：
+- 注意点：
 
 	1. 握手前两次不带数据但占用一个序列号，第三次可带可不带数据，不带数据不占用序列号
 
