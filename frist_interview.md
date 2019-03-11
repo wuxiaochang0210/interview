@@ -440,7 +440,7 @@ limit 4
 排序思想：
 将无序区中的第一个元素依次跟有序区的元素从后往前比较，直到找到已排序的元素中比该元素小的，则将比较过的数后移，将该元素插入到所找到的位置，如此循环直至无序区全部并入到有序区中
 <img src="resource/insert.gif">
-```C++
+```
 void Insertsort1(int a[], int n)  
 {  
     int i, j, k;  
@@ -470,7 +470,7 @@ void Insertsort1(int a[], int n)
  排序思想：
 将待排序数组按照步长gap进行分组，然后将每组的元素利用直接插入排序的方法进行排序；每次将gap折半减小，循环上述操作；当gap=1时，利用直接插入，完成排序
 <img src="resource/shell.png">
-```C++
+```
 void shellsort(int a[], int n)  
 {  
     int i, j, gap;  
@@ -498,7 +498,7 @@ void shellsort(int a[], int n)
 排序思想：
 从无序区中，找到最小的元素交换到无序区的第一位，将无序区第一位并入有序区，如此循环直至无序区全部并入到有序区
 <img src="resource/select.gif">
-```C++
+```
 void Selectsort(int a[], int n)  
 {  
     int i, j, nMinIndex, temp;  
@@ -532,7 +532,7 @@ void Selectsort(int a[], int n)
 这样对数组的第0个数据到N-1个数据进行一次遍历后，最大的一个数据就“沉”到数组第N-1个位置。
 对于长度为n的序列，一共需要执行n-1轮比较
 <img src="resource/bubble.gif">
-```C++
+```
 void BubbleSort1(int a[], int n)  
 {  
 	int i, j, temp;  
@@ -556,7 +556,7 @@ void BubbleSort1(int a[], int n)
 递归重复步骤1.2，直到所有子集当中只有一个元素为止时则排序完成
 
 <img src="resource/quick.gif">
-```C++
+```
 void quick_sort(int s[], int l, int r)  
 {  
     if (l < r)  
@@ -590,7 +590,7 @@ void quick_sort(int s[], int l, int r)
 
 <img src="resource/merge.gif">
 
-```C++
+```
 //将有二个有序数列a[first...mid]和a[mid...last]合并。  
 void mergearray(int a[], int first, int mid, int last, int temp[])  
 {  
