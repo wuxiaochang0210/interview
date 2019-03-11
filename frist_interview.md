@@ -1,9 +1,13 @@
 # 第一次社招面试
 
 @(主要是C++开发的面试，会加上我的一些个人理解)
-**C++基础参考：https://juejin.im/entry/5a1bbb386fb9a0451c3a1e0f?from=singlemessage **
-**数据库基础参考：https://juejin.im/post/5a9ca0d6518825555c1d1acd **
-**网络 TCP/IP：https://juejin.im/post/586cfcf8da2f600055ce8a8d **
+
+[C++基础参考：https://juejin.im/entry/5a1bbb386fb9a0451c3a1e0f?from=singlemessage ]
+
+[数据库基础参考：https://juejin.im/post/5a9ca0d6518825555c1d1acd ]
+
+[网络 TCP/IP：https://juejin.im/post/586cfcf8da2f600055ce8a8d ]
+
 - **语法特性**：主要是一些特性注意点，工作中用的不多或者就是默认使用，但面试就是喜欢搞这些花里胡哨的东西； 
 - **数据库** ：这部分不多，就是语法使用；
 - **算法数据结构** ：排序算法和常用的数据结构；
