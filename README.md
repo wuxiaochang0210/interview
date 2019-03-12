@@ -5,7 +5,7 @@
 该项目主要是面试总结！建议在网页浏览，因为用markdown写的，用文本来看很难看额
 
 
- - [第一篇面试总结](https://github.com/wuxiaochang0210/interview/blob/master/frist_interview.md)
+ - [第一篇面试总结](https://github.com/wuxiaochang0210/interview/blob/master/first_interview.md)
 
 
 ## 反馈与建议
